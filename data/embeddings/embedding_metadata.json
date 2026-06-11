@@ -1,0 +1,32 @@
+{
+  "VOCAB_SIZE": 7000,
+  "MAX_LENGTH": 50,
+  "EMBEDDING_DIM": 128,
+  "OOV_TOKEN": "<OOV>",
+  "NUM_CLASSES": 3,
+  "CLASS_LABELS": [
+    "NEGATIVE",
+    "NEUTRAL",
+    "POSITIVE"
+  ],
+  "TOTAL_SAMPLES": 2245,
+  "X_SHAPE": [
+    2245,
+    50
+  ],
+  "Y_SHAPE": [
+    2245,
+    3
+  ],
+  "TOKENIZER_VOCAB_SIZE": 6321,
+  "CLASS_WEIGHT": {
+    "0": 1.03791030975497,
+    "1": 4.454365079365079,
+    "2": 0.5518682399213373
+  },
+  "DISTRIBUSI_SENTIMEN": {
+    "POSITIVE": 1356,
+    "NEGATIVE": 721,
+    "NEUTRAL": 168
+  }
+}

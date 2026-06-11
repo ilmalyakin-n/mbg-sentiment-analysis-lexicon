@@ -1,0 +1,396 @@
+{
+  "model": "LSTM",
+  "total_skenario": 4,
+  "parameter_model": {
+    "VOCAB_SIZE": 7000,
+    "EMBEDDING_DIM": 128,
+    "MAX_LENGTH": 50,
+    "NUM_CLASSES": 3,
+    "BATCH_SIZE": 32,
+    "LEARNING_RATE": 0.001,
+    "DROPOUT_RATE": 0.5,
+    "RANDOM_STATE": 42
+  },
+  "hasil_per_skenario": [
+    {
+      "model": "LSTM",
+      "skenario_id": 1,
+      "skenario": "Skenario 1",
+      "accuracy": 0.6503,
+      "precision": 0.5972,
+      "recall": 0.6503,
+      "f1_score": 0.584,
+      "confusion_matrix": [
+        [
+          38,
+          0,
+          106
+        ],
+        [
+          5,
+          0,
+          29
+        ],
+        [
+          17,
+          0,
+          254
+        ]
+      ],
+      "classification_report": {
+        "NEGATIVE": {
+          "precision": 0.6333333333333333,
+          "recall": 0.2638888888888889,
+          "f1-score": 0.37254901960784315,
+          "support": 144.0
+        },
+        "NEUTRAL": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 34.0
+        },
+        "POSITIVE": {
+          "precision": 0.6529562982005142,
+          "recall": 0.9372693726937269,
+          "f1-score": 0.7696969696969697,
+          "support": 271.0
+        },
+        "accuracy": 0.6503340757238307,
+        "macro avg": {
+          "precision": 0.42876321051128247,
+          "recall": 0.40038608719420526,
+          "f1-score": 0.3807486631016042,
+          "support": 449.0
+        },
+        "weighted avg": {
+          "precision": 0.5972186120542078,
+          "recall": 0.6503340757238307,
+          "f1-score": 0.5840421773082587,
+          "support": 449.0
+        }
+      },
+      "precision_NEGATIVE": 0.6333,
+      "recall_NEGATIVE": 0.2639,
+      "f1_NEGATIVE": 0.3725,
+      "precision_NEUTRAL": 0.0,
+      "recall_NEUTRAL": 0.0,
+      "f1_NEUTRAL": 0.0,
+      "precision_POSITIVE": 0.653,
+      "recall_POSITIVE": 0.9373,
+      "f1_POSITIVE": 0.7697,
+      "epoch_digunakan": 20,
+      "epoch_maksimal": 50,
+      "units": 64,
+      "train_accuracy": 0.6069,
+      "val_accuracy": 0.5573,
+      "train_loss": 0.9108,
+      "val_loss": 0.9789,
+      "total_params": 949891
+    },
+    {
+      "model": "LSTM",
+      "skenario_id": 2,
+      "skenario": "Skenario 2",
+      "accuracy": 0.6036,
+      "precision": 0.3643,
+      "recall": 0.6036,
+      "f1_score": 0.4543,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          144
+        ],
+        [
+          0,
+          0,
+          34
+        ],
+        [
+          0,
+          0,
+          271
+        ]
+      ],
+      "classification_report": {
+        "NEGATIVE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 144.0
+        },
+        "NEUTRAL": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 34.0
+        },
+        "POSITIVE": {
+          "precision": 0.6035634743875279,
+          "recall": 1.0,
+          "f1-score": 0.7527777777777778,
+          "support": 271.0
+        },
+        "accuracy": 0.6035634743875279,
+        "macro avg": {
+          "precision": 0.20118782479584263,
+          "recall": 0.3333333333333333,
+          "f1-score": 0.25092592592592594,
+          "support": 449.0
+        },
+        "weighted avg": {
+          "precision": 0.364288867614744,
+          "recall": 0.6035634743875279,
+          "f1-score": 0.4543491709972779,
+          "support": 449.0
+        }
+      },
+      "precision_NEGATIVE": 0.0,
+      "recall_NEGATIVE": 0.0,
+      "f1_NEGATIVE": 0.0,
+      "precision_NEUTRAL": 0.0,
+      "recall_NEUTRAL": 0.0,
+      "f1_NEUTRAL": 0.0,
+      "precision_POSITIVE": 0.6036,
+      "recall_POSITIVE": 1.0,
+      "f1_POSITIVE": 0.7528,
+      "epoch_digunakan": 19,
+      "epoch_maksimal": 75,
+      "units": 64,
+      "train_accuracy": 0.67,
+      "val_accuracy": 0.5115,
+      "train_loss": 0.7307,
+      "val_loss": 1.0902,
+      "total_params": 949891
+    },
+    {
+      "model": "LSTM",
+      "skenario_id": 3,
+      "skenario": "Skenario 3",
+      "accuracy": 0.5902,
+      "precision": 0.3733,
+      "recall": 0.5902,
+      "f1_score": 0.4563,
+      "confusion_matrix": [
+        [
+          0,
+          9,
+          135
+        ],
+        [
+          0,
+          1,
+          33
+        ],
+        [
+          0,
+          7,
+          264
+        ]
+      ],
+      "classification_report": {
+        "NEGATIVE": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 144.0
+        },
+        "NEUTRAL": {
+          "precision": 0.058823529411764705,
+          "recall": 0.029411764705882353,
+          "f1-score": 0.0392156862745098,
+          "support": 34.0
+        },
+        "POSITIVE": {
+          "precision": 0.6111111111111112,
+          "recall": 0.974169741697417,
+          "f1-score": 0.7510668563300142,
+          "support": 271.0
+        },
+        "accuracy": 0.5902004454342984,
+        "macro avg": {
+          "precision": 0.22331154684095864,
+          "recall": 0.3345271688010998,
+          "f1-score": 0.263427514201508,
+          "support": 449.0
+        },
+        "weighted avg": {
+          "precision": 0.3732986884434546,
+          "recall": 0.5902004454342984,
+          "f1-score": 0.45628608329346815,
+          "support": 449.0
+        }
+      },
+      "precision_NEGATIVE": 0.0,
+      "recall_NEGATIVE": 0.0,
+      "f1_NEGATIVE": 0.0,
+      "precision_NEUTRAL": 0.0588,
+      "recall_NEUTRAL": 0.0294,
+      "f1_NEUTRAL": 0.0392,
+      "precision_POSITIVE": 0.6111,
+      "recall_POSITIVE": 0.9742,
+      "f1_POSITIVE": 0.7511,
+      "epoch_digunakan": 25,
+      "epoch_maksimal": 100,
+      "units": 64,
+      "train_accuracy": 0.6188,
+      "val_accuracy": 0.5598,
+      "train_loss": 0.8892,
+      "val_loss": 0.9863,
+      "total_params": 949891
+    },
+    {
+      "model": "LSTM",
+      "skenario_id": 4,
+      "skenario": "Skenario 4",
+      "accuracy": 0.559,
+      "precision": 0.559,
+      "recall": 0.559,
+      "f1_score": 0.5013,
+      "confusion_matrix": [
+        [
+          5,
+          58,
+          81
+        ],
+        [
+          1,
+          17,
+          16
+        ],
+        [
+          7,
+          35,
+          229
+        ]
+      ],
+      "classification_report": {
+        "NEGATIVE": {
+          "precision": 0.38461538461538464,
+          "recall": 0.034722222222222224,
+          "f1-score": 0.06369426751592357,
+          "support": 144.0
+        },
+        "NEUTRAL": {
+          "precision": 0.15454545454545454,
+          "recall": 0.5,
+          "f1-score": 0.2361111111111111,
+          "support": 34.0
+        },
+        "POSITIVE": {
+          "precision": 0.7024539877300614,
+          "recall": 0.8450184501845018,
+          "f1-score": 0.7671691792294807,
+          "support": 271.0
+        },
+        "accuracy": 0.5590200445434298,
+        "macro avg": {
+          "precision": 0.41387160896363345,
+          "recall": 0.459913557468908,
+          "f1-score": 0.35565818595217175,
+          "support": 449.0
+        },
+        "weighted avg": {
+          "precision": 0.5590293797639365,
+          "recall": 0.5590200445434298,
+          "f1-score": 0.5013420932544767,
+          "support": 449.0
+        }
+      },
+      "precision_NEGATIVE": 0.3846,
+      "recall_NEGATIVE": 0.0347,
+      "f1_NEGATIVE": 0.0637,
+      "precision_NEUTRAL": 0.1545,
+      "recall_NEUTRAL": 0.5,
+      "f1_NEUTRAL": 0.2361,
+      "precision_POSITIVE": 0.7025,
+      "recall_POSITIVE": 0.845,
+      "f1_POSITIVE": 0.7672,
+      "epoch_digunakan": 20,
+      "epoch_maksimal": 100,
+      "units": 128,
+      "train_accuracy": 0.6921,
+      "val_accuracy": 0.5318,
+      "train_loss": 0.7084,
+      "val_loss": 1.2027,
+      "total_params": 1036163
+    }
+  ],
+  "skenario_terbaik": {
+    "model": "LSTM",
+    "skenario_id": 1,
+    "skenario": "Skenario 1",
+    "accuracy": 0.6503,
+    "precision": 0.5972,
+    "recall": 0.6503,
+    "f1_score": 0.584,
+    "confusion_matrix": [
+      [
+        38,
+        0,
+        106
+      ],
+      [
+        5,
+        0,
+        29
+      ],
+      [
+        17,
+        0,
+        254
+      ]
+    ],
+    "classification_report": {
+      "NEGATIVE": {
+        "precision": 0.6333333333333333,
+        "recall": 0.2638888888888889,
+        "f1-score": 0.37254901960784315,
+        "support": 144.0
+      },
+      "NEUTRAL": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 34.0
+      },
+      "POSITIVE": {
+        "precision": 0.6529562982005142,
+        "recall": 0.9372693726937269,
+        "f1-score": 0.7696969696969697,
+        "support": 271.0
+      },
+      "accuracy": 0.6503340757238307,
+      "macro avg": {
+        "precision": 0.42876321051128247,
+        "recall": 0.40038608719420526,
+        "f1-score": 0.3807486631016042,
+        "support": 449.0
+      },
+      "weighted avg": {
+        "precision": 0.5972186120542078,
+        "recall": 0.6503340757238307,
+        "f1-score": 0.5840421773082587,
+        "support": 449.0
+      }
+    },
+    "precision_NEGATIVE": 0.6333,
+    "recall_NEGATIVE": 0.2639,
+    "f1_NEGATIVE": 0.3725,
+    "precision_NEUTRAL": 0.0,
+    "recall_NEUTRAL": 0.0,
+    "f1_NEUTRAL": 0.0,
+    "precision_POSITIVE": 0.653,
+    "recall_POSITIVE": 0.9373,
+    "f1_POSITIVE": 0.7697,
+    "epoch_digunakan": 20,
+    "epoch_maksimal": 50,
+    "units": 64,
+    "train_accuracy": 0.6069,
+    "val_accuracy": 0.5573,
+    "train_loss": 0.9108,
+    "val_loss": 0.9789,
+    "total_params": 949891
+  }
+}

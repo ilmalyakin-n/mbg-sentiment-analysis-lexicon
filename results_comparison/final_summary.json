@@ -1,0 +1,12 @@
+{
+  "best_lstm_skenario": "Skenario 1",
+  "best_lstm_accuracy": 0.6503,
+  "best_lstm_f1": 0.584,
+  "best_bilstm_skenario": "Skenario 1",
+  "best_bilstm_accuracy": 0.6036,
+  "best_bilstm_f1": 0.4648,
+  "overall_winner": "LSTM",
+  "bilstm_wins_count": 2,
+  "lstm_wins_count": 1,
+  "ties_count": 1
+}
